@@ -1,4 +1,4 @@
-# micrograd
+# smolTorch
 
 A tiny Autograd engine inspired by Andrej Karpathy's Micrograd. Implements backpropagation over a dynamically built DAG and a small neural networks library on top of it with a PyTorch-like API.The DAG only operates over scalar values, so e.g. we chop up each neuron into all of its individual tiny adds and multiplies. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.Built for educational purposes.
 
